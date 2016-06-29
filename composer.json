@@ -1,4 +1,7 @@
 {
     "name": "ipm/quickform_legacy",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "classmap": ["."]
+    }
 }
