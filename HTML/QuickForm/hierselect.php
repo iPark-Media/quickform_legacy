@@ -469,7 +469,7 @@ JAVASCRIPT;
     // }}}
     // {{{ onQuickFormEvent()
 
-    function onQuickFormEvent($event, $arg, &$caller)
+    function onQuickFormEvent($event, $arg, &$caller = null)
     {
         if ('updateValue' == $event) {
             // we need to call setValue() so that the secondary option

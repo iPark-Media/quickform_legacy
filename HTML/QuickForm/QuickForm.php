@@ -569,7 +569,7 @@ class HTML_QuickForm extends HTML_Common {
                 $args[$i] = null;
             }
         }
-        $err = $elementObject->onQuickFormEvent($event, $args, $this);
+        $err = $elementObject->onQuickFormEvent($event, $args);
         if ($err !== true) {
             return $err;
         }
